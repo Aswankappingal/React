@@ -1,0 +1,57 @@
+/* Form.css */
+
+.Full-data {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 22px 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #2e2e2e;
+
+  }
+ 
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(190, 181, 181);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+  
+  /* button {
+    background-color: #1962af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   */
+   #btn{
+    background-color: #505353;
+    color: rgb(220, 211, 211);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    /* color: #585555; */
+
+   }
+  #btn:hover {
+    background-color: #4a4b4d;
+  }
